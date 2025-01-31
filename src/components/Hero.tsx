@@ -27,14 +27,11 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            <a href="#services" className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 rounded-full flex items-center gap-2 transition-colors">
+            <a href="#services" className="bg-purple-600 hover:bg-purple-900-700 text-white px-8 py-3 rounded-full flex items-center gap-2 transition-colors">
               <WrenchIcon className="w-5 h-5" />
               Explore Services
             </a>
-            <a href="#contact" className="border border-violet-400 hover:bg-violet-900 text-white px-8 py-3 rounded-full flex items-center gap-2 transition-colors">
-              <HomeIcon className="w-5 h-5" />
-              Get Started
-            </a>
+            
           </motion.div>
         </motion.div>
         
@@ -70,7 +67,7 @@ export const Hero = () => {
               }}
             />
             <img 
-              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80"
+              src="/public/heroimg.jpeg"
               alt="Home Services"
               className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-2xl"
             />

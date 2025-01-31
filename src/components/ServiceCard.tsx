@@ -21,7 +21,7 @@ export const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, ic
       <p className="text-violet-200 mb-4">{description}</p>
       <button
         onClick={onBook}
-        className="bg-violet-600 hover:bg-violet-700 text-white px-4 py-2 rounded-lg transition-colors w-full"
+        className="bg-purple-600 hover:bg-purple-900 text-white px-4 py-2 rounded-lg transition-colors w-full"
       >
         Book Now
       </button>
