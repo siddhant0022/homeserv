@@ -53,7 +53,7 @@ export const Home = () => {
               >
                 <h3 className="text-2xl font-semibold mb-4">{service}</h3>
                 <p className="text-violet-200 mb-4">Professional {service.toLowerCase()} services for your home</p>
-                <a href="/services" className="text-yellow-600 hover:text-white transition-colors">
+                <a href="/services" className="text-purple-300 hover:text-white transition-colors">
                   Learn more →
                 </a>
               </motion.div>
